@@ -1,1 +1,65 @@
-/* TODO: design your profile with CSS */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: rgb(120, 120, 120);
+  background-color: rgb(220, 220, 220);
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h1, h2, h3 {
+  color: rgb(221, 85, 85);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+div, section {
+  width: 500px;
+  padding: 15px;
+  padding-bottom: 20px;
+  margin: 10px auto;
+  border: 1px solid rgb(210, 210, 210);
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  text-align: center;
+}
+
+a:hover {
+  color: rgb(221, 85, 85);
+}
+
+#picture-profile {
+  border: 3px solid rgb(210, 210, 210);
+  border-radius: 50%;
+}
+
+#more-info {
+  background-color: rgb(221, 85, 85);
+  padding: 10px;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.link-social {
+  text-decoration: none;
+  color: rgb(210, 210, 210);
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.list-inline li i {
+  display: block;
+  font-size: 30px;
+}
